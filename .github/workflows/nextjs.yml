@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./ignews
+        working-directory: ignews/
     steps:
       - name: Checkout
         uses: actions/checkout@v4
