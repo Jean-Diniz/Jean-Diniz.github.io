@@ -26,5 +26,4 @@ concurrency:
 
 jobs:
   # Build job
-  build:
-  uses: Jean-Diniz.github.io/ignews/.github/workflows/nextjs.yml@gh-pages
+  uses: Jean-Diniz/Jean-Diniz.github.io/ignews/.github/workflows/nextjs.yml@gh-pages
