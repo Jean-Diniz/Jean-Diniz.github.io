@@ -1,10 +1,13 @@
 {
   "name": "ignews",
+  "homepage": "https://jean-diniz.github.io/ignews/"
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d build"
     "start": "next start",
     "lint": "next lint",
     "slicemachine": "start-slicemachine"
